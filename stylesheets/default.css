@@ -76,6 +76,11 @@ a:hover {
   font-weight: bold;
   text-decoration: underline;
 }
+a:active {
+  color: #77C4D3;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 .line-break-hd {
   border-bottom: 3px ridge #77C4D3;
@@ -99,6 +104,10 @@ a:hover {
 .margin-sides {
   margin-left: 1em;
   margin-right: 1em;
+}
+.margin-footer {
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .margin-top-bottom {
@@ -141,3 +150,4 @@ a:hover {
 }.font-l {
   font-size: 1.75em;
 }
+
