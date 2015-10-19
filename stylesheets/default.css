@@ -105,6 +105,10 @@ a:active {
   margin-left: 1em;
   margin-right: 1em;
 }
+.margin-footer {
+  margin-left: 2em;
+  margin-right: 2em;
+}
 
 .margin-top-bottom {
   /*margin-top: 0.5em;*/
