@@ -1,0 +1,128 @@
+html {
+  color: #333745;
+  background-color: #fffff ;
+  font-family: Ubuntu;
+}
+
+header {
+  text-align: center;
+}
+
+header img{
+  width:40%;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  position: relative;
+  font-family: Abel;
+  font-size:1.5em;
+
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left:1em;
+  margin-right:1em;
+}
+
+nav ul li a:link{
+  color: #333745;
+  font-weight: bold;
+}
+
+nav ul li a:active {
+  color: #77C4D3;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #333745;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #77C4D3;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Ubuntu ;
+  margin-bottom: 0.1em;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: Abel ;
+  font-size: 1.8em;
+}
+
+a:link{
+  color: #333745;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #333745;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #77C4D3;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.line-break-hd {
+  border-bottom: 3px ridge #77C4D3;
+}
+
+.line-break {
+  border-top: 1px solid #77C4D3;
+  margin-right: 5%;
+  margin-left:5%;
+  margin-top: 5%;
+}
+
+.margin-top-clear{
+  margin-top: 0px;
+}
+
+.margin-sides {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.margin-top-bottom {
+  /*margin-top: 0.5em;*/
+  margin-bottom: 0.25em;
+}
+
+.list-columns {
+  list-style: none;
+}
+
+.three-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    padding: 0px;
+}
+
+.font-xs {
+  font-size: 1em;
+}
+.font-s {
+  font-size: 1.25em;
+}.font-m {
+  font-size: 1.5em;
+}.font-l {
+  font-size: 1.75em;
+}
