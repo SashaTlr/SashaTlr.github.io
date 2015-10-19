@@ -76,6 +76,11 @@ a:hover {
   font-weight: bold;
   text-decoration: underline;
 }
+a:active {
+  color: #77C4D3;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 .line-break-hd {
   border-bottom: 3px ridge #77C4D3;
