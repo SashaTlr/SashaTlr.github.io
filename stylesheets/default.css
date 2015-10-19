@@ -92,6 +92,10 @@ a:hover {
   margin-top: 0px;
 }
 
+.margin-bottom-clear{
+  margin-top: 0px;
+}
+
 .margin-sides {
   margin-left: 1em;
   margin-right: 1em;
@@ -104,6 +108,17 @@ a:hover {
 
 .list-columns {
   list-style: none;
+}
+.right-footer{
+  float:right;
+}
+
+.left-footer{
+  float:left;
+}
+
+.clearfix{
+  clear: all;
 }
 
 .three-columns {
