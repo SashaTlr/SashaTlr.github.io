@@ -64,3 +64,32 @@ font-size: 1em;
 font-weight: bold;
 margin-top:2%;
 }
+
+.add-margin{
+  margin-bottom: 2em;
+}
+
+.double-screenshots{
+  display: inline-block;
+  border: 1px solid;
+  margin: 0px auto;
+  position: relative;
+  width: auto;
+  text-align: center;
+}
+
+.double-screenshots img{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border:1px solid;
+  display:inline-block;
+
+
+}
+
+.double-screenshots figcaption{
+text-align: center;
+font-size: 1em;
+font-weight: bold;
+margin-top:2%;
+}
