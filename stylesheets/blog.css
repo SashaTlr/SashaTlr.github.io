@@ -2,6 +2,12 @@
   font-style: italic;
 }
 
+footer{
+  position:absolute;
+  width:100%;
+  bottom:0px;
+    }
+
 h1 {
   font-family: Ubuntu ;
   margin-bottom: 0.1em;
@@ -10,7 +16,7 @@ h1 {
 
 h2 {
   font-family: Abel ;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .blog-image{
