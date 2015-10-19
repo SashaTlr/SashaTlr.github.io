@@ -21,12 +21,24 @@
     <article class="margin-sides" >
 
       <h2>What does display inline and inline-block mean?</h2>
-      <h3>October 18, 2015</h3>
+      <h3>October 18, 2015</h3><div class="line-break"></div>
 
-      <p>
+      <p> To understand the difference between inline and inline-block, it is first important to understand what the display property is.
 
+        <h4> What is a display?</h4>
+        The display property is used to define how an element will display in the viewport (aka the screen). When definining how an element will display, there are several options, including block, inline, and inline-block. The default setting is block display, which means that the box containing the element will display the entire width that is available. This automatically pushed the next element onto a new line - hence why two elements with no display specifications will appear one after the other in your browser. Shay Howe has a well-written lesson on the <a href="http://learn.shayhowe.com/html-css/opening-the-box-model/" alt="Box Model" target="_blank">Box Model</a> to learn more about how the box works.
       </p>
-      <p>
+
+      <div class="screenshots"><figcaption>Display:block elements</figcaption>
+       <img src="../imgs/Block.png" Alt="Block Elements">
+     </div>
+
+      <p> So now back to our main question: What is the difference between inline and inline-block?
+        <h4> What is inline display?</h4>
+        A block spans the entire width of the page and pushes the next element to a new line. Inline is the complete opposite! Inline will wrap the box tightly around the content, and will take up the minimum amount of width necessary. Inline displays do not accept box properties, so you cannot adjust the left-right padding and margins to increase the box sizing of an inline element.
+
+        <h4> What is an inline-block display?</h4>
+        We now know what block and inline displays are. An inline-block contains elements of both. Unlike inline elements, it accepts box properties, but unlike block elements, it will position the boxes on the same line. This is useful for creating things like horizontal lists or navigation menus, as well as creating clean layouts that can be reused for other pages.
 
       </p>
 
