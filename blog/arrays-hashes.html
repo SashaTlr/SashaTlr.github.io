@@ -5,7 +5,7 @@
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
     <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"/>
-    <title>Blog Post Title</title>
+    <title>Arrays and Hashes</title>
     <meta charset="UTF-8">
   </head>
 
@@ -20,24 +20,43 @@
 
     <article class="margin-sides" >
 
-      <h2>Title</h2>
-      <h3>Date</h3>
+      <h2>When do you use Arrays vs Hashes?</h2>
+      <h3>October 25, 2015<div class="line-break"></div></h3>
 
-      <p>
-
+      <p>I like to think of hashes as a refined array. Arrays are a data structure made up of units, each unit holding some value. The units are referenced by some default numerical index, starting from 0. Arrays default to one dimension, but can be stacked to create multiple dimension arrays.
+      '''ruby
+      my_array = [["Apple",1.50],["Banana",1.00],["Orange",1.00]]
+      '''
       </p>
-      <p>
+      <p>Hashes are also a data structure, however, a hash has both a key and a value. The key replaces the index as a defined object or property of the value. An example of this is a dictionary: the key would be the word, and the value would be the definition.
+      </p>
+      '''ruby
+      my_hash = {:Apple => 1.50,
+      :Banana => 1.00,
+      :Orange => 1.00
+      }
+      '''
+      <p>Hashes are much more efficient data structures. While arrays can store the same data, if you do not already know the index of an array, you will have to search the array to find the value. With a hash, you know the key, so you simply return the value of that key. However, if you need to iterate over a series of data, arrays are likely the way to go, as Ruby methods make it easy to iterate over the array.
+      '''ruby
+      #Calling the price for an Apple from an array
+      #Note that you must know the index of the Apple before calling it
+      p my_array[0,1]
+      '''
 
+      '''ruby
+      #Calling the price of an Apple from a hash
+      p my_hash[:Apple]
+      '''
       </p>
 
     </article>
-
+    <div class="clearfix"></div>
     <footer>
       <p class="margin-sides margin-bottom-clear margin-top-clear left-footer"><span class="comment-format">Any comments or suggestions? </span><a href="mailto:sashatailor@gmail.com">Get in touch!</a></p>
       <!--<div class="right-footer margin-footer"><a href="https://github.com/SashaTlr" class="margin-sides"><img src="../imgs/GitHub-Mark-32px.png"></a><a href="https://www.linkedin.com/in/sashatailor" class="margin-sides"><img src="../imgs/1444424794_linkedin.png"></a><a href="mailto:sashatailor@gmail.com" class="margin-sides"><img src="../imgs/Mail-Icon.png"></a></div>-->
       <!-- can add other social media icons later -->
 
-  </footer> <div class="clearfix"></div>
+  </footer>
 
   </body>
 
