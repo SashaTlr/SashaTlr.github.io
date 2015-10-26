@@ -1,7 +1,16 @@
+p {
+  line-height: 150%;
+}
+
 .comment-format{
   font-style: italic;
 }
+blockquote {
+  font-style: bold;
+  font-family: Abel ;
+  font-size: 1.5em;
 
+}
 footer{
   position: relative;
   width: 100%;

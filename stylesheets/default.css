@@ -16,6 +16,9 @@ footer{
   position:absolute;
     width:100%;
     }
+p {
+  line-height: 150%;
+}
 
 nav ul {
   text-align: center;
