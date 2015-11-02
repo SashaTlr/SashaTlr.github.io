@@ -139,6 +139,8 @@ a:active {
 }
 .right-footer{
   position: absolute;
+  display: inline-block;
+  float: right;
   right:0;
 }
 
