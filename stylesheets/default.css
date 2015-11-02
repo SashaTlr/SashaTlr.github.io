@@ -138,7 +138,8 @@ a:active {
   list-style: none;
 }
 .right-footer{
-  float:right;
+  position: absolute;
+  right:0;
 }
 
 .left-footer{
