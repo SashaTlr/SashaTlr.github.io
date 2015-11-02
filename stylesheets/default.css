@@ -13,12 +13,17 @@ header img{
 }
 
 footer{
-  position:absolute;
+  position:relative;
     width:100%;
-    margin-top: 3em
+    margin: 0.2em 0;
+    padding: 0.8em 0;
     }
 
-p {
+footer p {
+  margin: 0;
+}
+
+article p {
   line-height: 150%;
 }
 
@@ -103,6 +108,10 @@ a:active {
   margin-top: 5%;
 }
 
+.margin-zero{
+  margin: 0;
+}
+
 .margin-top-clear{
   margin-top: 0px;
 }
@@ -133,7 +142,10 @@ a:active {
 }
 
 .left-footer{
-  float:left;
+  /*float:left;*/
+  display: inline-block;
+  margin: 0 2em;
+  padding: 0;
 }
 
 .clearfix{
