@@ -176,6 +176,10 @@ a:active {
     padding: 0px;
 }
 
+.center {
+  text-align: center;
+}
+
 .font-xs {
   font-size: 1em;
 }
@@ -186,5 +190,3 @@ a:active {
 }.font-l {
   font-size: 1.75em;
 }
-
-
