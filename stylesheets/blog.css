@@ -103,3 +103,7 @@ font-size: 1em;
 font-weight: bold;
 margin-top:2%;
 }
+
+pre code{
+  font-size: 2em;
+}

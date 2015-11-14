@@ -190,3 +190,6 @@ a:active {
 }.font-l {
   font-size: 1.75em;
 }
+font-bold {
+  font-weight: bold;
+}
