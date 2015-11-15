@@ -180,6 +180,9 @@ a:active {
   text-align: center;
 }
 
+.line-spacing{
+  line-height: 150%;
+}
 .font-xs {
   font-size: 1em;
 }
@@ -190,6 +193,6 @@ a:active {
 }.font-l {
   font-size: 1.75em;
 }
-font-bold {
-  font-weight: bold;
+.font-bold {
+  font-weight: 1800;
 }

@@ -24,15 +24,103 @@
       <h3>November 14th, 2015<div class="line-break"></div></h3>
 
       <p>
-          To understand the difference between Ruby Classes and JavaScript Constructor Functions, we need to clarify our understanding of what these two objects are.
-          <ul>
-            <li><span ID="font-bold">Ruby Classes:</span> Classes in Ruby are also objects, and they are used to create new objects (e.g. a new instance of a class) as well as define the behaviour of the new objects (e.g. the methods and variables of the class).</li>
-            <li><span ID="font-bold">JavaScript Constructors:</span> Constructors in JavaScript are functions, NOT objects. When the constructor function is invoked using the 'new' keyword, a new object is created.  Classes in Ruby are also objects, and they are used to create new objects (e.g. a new instance of a class) as well as define the behaviour of the new objects (e.g. the methods and variables of the class). A JavaScript comparison is that along with the constructor function, prototypes can be used to define the behaviour of the object that will be created via a constructor. </li>
+          Both Ruby and JavaScript are object oriented languages. A Ruby class is an object which is also an instance of the class Class. To understand the difference between Ruby Classes and JavaScript Constructor Functions, we need to clarify our understanding of what these two objects are.
+          <ul class="line-spacing">
+            <li><div class="font-bold">Ruby Classes:</div> Classes in Ruby are really objects, and they are used to create new objects, or initialize new instances of a class. They are also used to define the behaviour of the new objects, using variables and methods inherited from the class.</li>
+            <li><div class="font-bold">JavaScript Constructors:</div>Constructors in JavaScript are functions, which are a type of object. When the constructor function is invoked using the 'new' keyword, a new object is created, similar to the initialization function in Ruby. Along with the constructor function, prototypes are used to define the behaviour of the object that will be created via the constructor function. This is the key - new objects will not inherit from the parent object based on the constructor function alone. There must be prototypes that set object functions back to the object in order for the new object to inherit these function properties.</li>
           </ul>
       </p>
-      <p>
-
+      <p>Let's take a look at the differences in creating a new Class definition in Ruby versus using the constructor function in JavaScript.</p>
+        <div>
+          <pre><code>
+            In Ruby:
+              class Cake
+                def initialize (cake_flavour, filling_flavour, number_of_layers, number_of_candles)
+                  @cake_flavour = cake_flavour
+                  @filling_flavour = filling_flavour
+                  @number_of_layers = number_of_layers
+                  @number_of_candles = number_of_candles
+                end
+              end
+          </code></pre>
+          <pre><code>
+            In JavaScript:
+              function Cake(cake_flavour, filling_flavour, number_of_layers, number_of_candles, number_of_servings)
+              {
+                this.cake_flavour = cake_flavour;
+                this.filling_flavour = filling_flavour;
+                this.number_of_layers = number_of_layers;
+                this.number_of_candles = number_of_candles;
+              }
+          </code></pre>
+        </div>
+      <p>Now we want to add methods to our Cake class. We're familiar with how to do this in Ruby, but how do we attach methods to our Cake object in JavaScript. That's where prototypes come in.
       </p>
+      <div>
+          <pre><code>
+            In Ruby:
+              class Cake
+                def initialize (cake_flavour, filling_flavour, number_of_layers, number_of_candles)
+                  @cake_flavour = cake_flavour
+                  @filling_flavour = filling_flavour
+                  @number_of_layers = number_of_layers
+                  @number_of_candles = number_of_candles
+                end
+
+                def number_of_servings
+                  @number_of_layers * 8
+                end
+
+                def assemble_cake
+                  p "Your cake has #{@number_of_layers} layers of #{@cake_flavour} cake with #{filling_flavour}
+                  filling and will serve #{number_of_servings} people."
+                end
+              end
+          </code></pre>
+          <pre><code>
+            In JavaScript:
+              function Cake(cake_flavour, filling_flavour, number_of_layers, number_of_candles, number_of_servings){
+                this.cake_flavour = cake_flavour;
+                this.filling_flavour = filling_flavour;
+                this.number_of_layers = number_of_layers;
+                this.number_of_candles = number_of_candles;
+                //this.number_of_servings = number_of_servings;
+              }
+
+              Cake.prototype.number_of_servings = function() {
+                 this.number_of_servings = this.number_of_layers * 8;
+                 return this.number_of_servings
+              };
+
+              Cake.prototype.assemble_cake = function() {
+                console.log("Your cake has " + this.number_of_layers + " layers of " + this.cake_flavour + " cake with "
+                + this.filling_flavour + " filling and will serve " + this.number_of_servings + " people.");
+              };
+          </code></pre>
+        </div>
+      <p>
+        So finally, let's take a look at how we create a new instance of the Cake class in Ruby, versus creating a new Cake object in JavaScript.
+      </p>
+      <div>
+          <pre><code>
+            In Ruby:
+              BirthdayCake = Cake.new("chocolate", "vanilla", 2, 28)
+              BirthdayCake.number_of_servings
+              BirthdayCake.assemble_cake
+              => Your cake has 2 layers of chocolate cake with vanilla filling and will serve 16 people.
+          </code></pre>
+          <pre><code>
+            In JavaScript:
+              var BirthdayCake = new Cake("chocolate", "vanilla", 2, 28)
+              BirthdayCake.number_of_servings();
+              BirthdayCake.assemble_cake();
+              => Your cake has 2 layers of chocolate cake with vanilla filling and will serve 16 people.
+          </code></pre>
+        </div>
+      <p>
+      Inheritance differs in Ruby an JavaScript as a result of how instances of a class are created in Ruby versus constructor functions in JavaScript. In Ruby, a newly created class will also be a subclass of an existing class, and the class will inherit all of the properties of its parent classes, upon which it can add, remove, or modify onto. JavaScript implements inheritace by using the prototype object along with the constructor function by defining a new object from the parent prototype as a prototype for a child object, and it will then inherit properties from the parent object whenever you create a new object. As you can see, combining constructor functions and prototypes can create something that is akin to a Class in Ruby, but it is not the same thing.
+      </p>
+
 
     </article>
 

@@ -1,7 +1,8 @@
+
 class Cake
 
-attr_accessor :cake_flavour :filling_flavour :number_of_layers :number_of_candles
-attr_reader  :number_of_servings
+attr_accessor :cake_flavour, :filling_flavour, :number_of_layers, :number_of_candles
+attr_reader :number_of_servings
 
   def initialize (cake_flavour, filling_flavour, number_of_layers, number_of_candles)
     @cake_flavour = cake_flavour
@@ -11,14 +12,20 @@ attr_reader  :number_of_servings
   end
 
   def number_of_servings
-
+    @number_of_layers * 8
   end
 
   def assemble_cake
-    p "Your cake has #{@number_of_layers} of #{@cake_flavour} cake with #{filling_flavour} filling and will serve #{number_of_servings} people."
+    p "Your cake has #{@number_of_layers} layers of #{@cake_flavour} cake with #{filling_flavour} filling and will serve #{number_of_servings} people."
   end
 
 end
+
+BirthdayCake = Cake.new("chocolate", "vanilla", 2, 28)
+BirthdayCake.number_of_servings
+BirthdayCake.assemble_cake
+
+=begin
 
 class Cake
 attr_accessor :cake_flavour :filling_flavour :number_of_layers :number_of_candles
@@ -41,5 +48,4 @@ attr_reader  :number_of_servings
   end
 
 end
-
-Cake.new("chocolate", "vanilla", 2, 28)
+=end
