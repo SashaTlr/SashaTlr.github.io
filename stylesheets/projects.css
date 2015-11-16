@@ -44,8 +44,9 @@ h4 {
   font-weight: bolder;
 }
 
-.projects-image{
-  width:25%;
+ul {
+  padding: 0;
+  text-align: center;
 }
 
 li {
@@ -104,6 +105,3 @@ font-weight: bold;
 margin-top:2%;
 }
 
-pre code{
-  font-size: 1.2em;
-}
