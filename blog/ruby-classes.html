@@ -30,7 +30,8 @@
       <p>A real-life example of this would be a cake. The Cake class would have a series of properties and methods, such as a cake flavour, filling flavour, and number of layers. In addition, there could be methods such as calculate the number of servings of the cake and assemble the cake.
       </p>
       <p>
-        In creating a class, it's important to understand what initalization means. When a new object of a class is created, this is called creating an instance of the class. Within the instance, there will be local variables that are specific to each method, as well as instance variables that are specific to the entire instance of the class, that is, it is available across methods of the same instance. Instance variables are identified using an @ ahead of the variable name. For example, in the below code, we are creating a new instance of the Cake class, with the four properties that are initialized in the create of the class. The below code is the template to create the Cake class, with the variables initialized.</p><pre class="prettyprint"><code>
+        In creating a class, it's important to understand what initalization means. When a new object of a class is created, this is called creating an instance of the class. Within the instance, there will be local variables that are specific to each method, as well as instance variables that are specific to the entire instance of the class, that is, it is available across methods of the same instance. Instance variables are identified using an @ ahead of the variable name. For example, in the below code, we are creating a new instance of the Cake class, with the four properties that are initialized in the create of the class. The below code is the template to create the Cake class, with the variables initialized.</p>
+        <pre class="prettyprint"><code>
         class Cake
 
           def initialize (cake_flavour, filling_flavour, number_of_layers, number_of_candles)
@@ -52,13 +53,15 @@
       <p>In the below code, we are creating a new instance of the Cake class, with the four properties that are initialized in the create of the class.
       </p>
       <pre class="prettyprint"><code>BirthdayCake = Cake.new("chocolate", "vanilla", 2, 28)</pre></code>
-      <p>So now we have created a Cake class, but it doesn't really do anything. What if we want to see look up the flavour of the birthday cake? We would need to create a method within the Cake class to return the flavour. However, Ruby has an easier way. Ruby has built in methods to get and set attributes. They are called attr_reader, which creates methods to simply return the property of an attribute, attr_writer, which creates a method to write to the property of an attribute. To have both methods, use attr_accessor. To see this in practice, take a look at what variables are read/write versus read-only in our Cake class.</p><pre class="prettyprint"><code>
+      <p>So now we have created a Cake class, but it doesn't really do anything. What if we want to see look up the flavour of the birthday cake? We would need to create a method within the Cake class to return the flavour. However, Ruby has an easier way. Ruby has built in methods to get and set attributes. They are called attr_reader, which creates methods to simply return the property of an attribute, attr_writer, which creates a method to write to the property of an attribute. To have both methods, use attr_accessor. To see this in practice, take a look at what variables are read/write versus read-only in our Cake class.</p>
+      <pre class="prettyprint"><code>
         class Cake
         attr_accessor :cake_flavour :filling_flavour :number_of_layers :number_of_candles
         attr_reader  :number_of_servings
         ...
         end</pre></code>
       <p>Now the fun part! Our objects should have functions built in. Our Cake function is going to be able to tell us what our entire cake is like assembled, as well as how many people it can serve. This example will show you the complete code for our simple Cake class.
+      </p>
       <pre class="prettyprint"><code>
       class Cake
       attr_accessor :cake_flavour :filling_flavour :number_of_layers :number_of_candles
@@ -82,7 +85,7 @@
 
       end
     </pre></code>
-    <p>That's it. A Class is a collection of properties and methods, and a new object of that class can be created, just like how we are able to create new Array or String instances. Classes can carry variables through various levels, they can be global, specific to an instance of a class, or even specific to a method of the class.
+    <p>That's it. A Class is a collection of properties and methods, and a new object of that class can be created, just like how we are able to create new Array or String instances. Classes can carry variables through various levels, they can be global, specific to an instance of a class, or even specific to a method of the class. </p>
     </article>
 
     <footer>
