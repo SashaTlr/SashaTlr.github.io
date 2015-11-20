@@ -76,7 +76,7 @@ font-weight: bold;
 margin-top:2%;
 }
 
-.add-margin{
+.add-margin-bottom{
   margin-bottom: 2em;
 }
 
@@ -105,3 +105,20 @@ font-weight: bold;
 margin-top:2%;
 }
 
+.content-box{
+  border: 1px solid #333745;
+  padding: 0 1.5em;
+  margin: 1.5em;
+  overflow: auto;
+}
+
+.code-box-left{
+  border: 1px solid #333745;
+  float: left;
+  width: 49%
+}
+.code-box-right{
+  border: 1px solid #333745;
+  float: right;
+  width: 49%
+}
