@@ -29,20 +29,43 @@
       <li><h2>Big O Complexity and Notation</h2>
         <p>Big O complexity answers the question of how efficient an algorithm is, which indicates how quickly a process will run, and how resource-intensive it will be. Complexity is expressed using big-O notation, written as O(N). As an example, linear-time algorithms will be to the order N, so will write as O(N).</p></li>
       <li><h2>Computer Memory</h2>
-        <p>Computer memory is divided into two main types: Internal or Main memory, stored in RAM and ROM chips, and External or Auxiliary Memory, stored in things like Hard Drives. Internal memory can store and retrieve data quickly, and it's used to help the computer process whatever is currently being worked on. It doesn't store data long-term, so empties its contents as soon as the computer is powered down. The external memory is for long-term storage, and is where your documents, pictures, etc are stored.</p></li>
+        <p>Computer memory is divided into two main types: Internal or Main memory, stored in RAM and ROM chips, and External or Auxiliary Memory, stored in things like Hard Drives. Internal memory can store and retrieve data quickly, and it's used to help the computer process whatever is currently being worked on. It doesn't store data long-term, so empties its contents as soon as the computer is powered down. The external memory is for long-term storage, and is where your documents, pictures, etc are stored. In order for the CPU to access memory, every instruction or piece of data stored in memory has a location, which acts like an address in which it can be referred to.</p></li>
       <li><h2>Dynamic vs. Static-typed Languages</h2>
-        <p>Static-typed languages are languages where the variable types are known before the program is run. For example, variable <code>i</code> would be declared as an integer before i is assigned a value. This helps in catching errors before these variables are even involved in any operations. Dynamic-typed languages like Ruby do not need variable type declarations in order for the program to run, which allows for quicker coding but can be more error-prone.
+        <p>Static-typed languages are languages where the variable types are known before the program is run. For example, variable <code>i</code> would be declared as an integer before <code>i</code> is assigned a value. This helps in catching errors before these variables are even involved in any operations. Dynamic-typed languages like Ruby do not need variable type declarations in order for the program to run, which allows for quicker coding but can be more error-prone.
         </p>
       </li>
       <li><h2>How computers work</h2>
+        <p>Computers have four components: Input, memory, processors, and output. Things that provide input include keyboards and mice. Memory devices include the hard-drive and memory cards. Processors are also called the central processing unit, and is a microchip in the computer. This is where the work gets done! Lastly, the output includes your monitor and speakers. The operating system is the software that controls these basic four components, and other programs are built on top of it.</p>
+        <p>The CPU, where the magic happens, converts the data input into information output. It is a complex, electronic circuit that executes program instructions. It also interacts with  memory, referring to internal memory for instructions and data.</p>
+        <p>What's interesting is that the electronic circuitry in the CPU can perform the four basic arithmetic operations (+,-,*,/) and logical comparisons (==,>,<), so in executing programs, all instructions are broken down into these basic functions.</p>
       </li>
       <li><h2>How the Internet Works</h2>
+        <p>The Internet is really just a computer network, akin to a telephone network. The World Wide Web, file sharing, Whatsapp, etc are all things that run on top of this computer network. The computer network's job is to move data via wire cables, fiber-optics, radio waves, and satellites.
+        </p>
+        <p>Data moves through the network using packet switching. The data is moved into broken up pieces called packets, are given a destination, and then reassemble once it reaches that destination. These packets are all sent separately through the most efficient routes, so they arrive faster than if everything was sent at once.</p>
       </li>
       <li><h2>Recursion</h2>
+        <p>Recursion is a function that calls itself until a base case is reached, upon which the recursive function will end. Recursion is useful for large problems that can be broken down into smaller version of itself, so that the smaller version can be solved, fed back into the problem, and then have the algorithm apply to the new smallest piece. A very common example of recursion is the factorial problem(n!), where n! = n*(n-1)*(n-2)...*1 or, written recursively, n*(n-1)!. As ruby, this would look like
+          <pre><code>
+            def factorial(n)
+              if n == 1
+                return 1
+              else
+                n*factorial(n-1)
+              end
+            end
+          </code></pre>
       </li>
       <li><h2>Regular Expressions</h2>
+      <p>A regular expression is a text string that describes a search pattern in a programming language. Some examples would be the use of [A-Z] to search for capital letters, *.txt to search for file names that end with .txt, or \d to search for a digit.
       </li>
       <li><h2>Sorting (merge sort, quick sort, bubble sort)</h2>
+      <p>When it comes to big data sets, it's important to think about an efficient sorting algorithm.
+        <ol>
+          <li>Bubble Sort: The least efficient method, bubble sort goes through the items of the list in pairs, and swaps the order of the pairs so that the smallest value is first. The algorithm keeps looping through the list until it goes through the list once without any swaps.</li>
+          <li>Quick Sort: Selects a pivot in the list, and moves smaller elements to before the pivot, greater elements to after the pivot. What is important here is that it isn't necessarily placing the swapped elements in order, it is just moving the elements into a smaller and greater section. It then calls the function recursively on each section until the subsections have no more elements to partition. It is important that the initial pivot is randomly chosen, and not the furthermost element of the list.</li>
+          <li>Merge Sort: Merge sort is a recursive algorithm that divides a list into n subsets. It then sorts these subsets (initially just one element each) and merges one level. It then sorts these subsets, and continues to merge and sort until there is only one sublist.</li>
+        </ol>
       </li>
       <li><h2>Test-Driven Development</h2>
       </li>
