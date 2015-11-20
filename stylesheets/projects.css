@@ -113,12 +113,12 @@ margin-top:2%;
 }
 
 .code-box-left{
-  border: 1px solid #333745;
+  /*border: 1px solid #333745;*/
   float: left;
   width: 49%
 }
 .code-box-right{
-  border: 1px solid #333745;
+  /*border: 1px solid #333745;*/
   float: right;
   width: 49%
 }
