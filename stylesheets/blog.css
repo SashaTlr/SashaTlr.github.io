@@ -28,6 +28,7 @@ h2 {
   font-family: Abel ;
   font-size: 1.5em;
   margin-bottom: 0.5em;
+  text-align: left;
 }
 
 h3 {
@@ -50,7 +51,6 @@ h4 {
 
 li {
   list-style: none;
-  margin: 2em;
 }
 
 .line-break {
