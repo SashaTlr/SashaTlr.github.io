@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/projects.css"/>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <title>Looping in JS vs Ruby</title>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <nav>
+        <a href="http://sashatlr.github.io/projects/index.html">Return to projects index</a>
+    </nav>
+
+    <header>
+      <a href="http://sashatlr.github.io/index.html"><img src="../imgs/SashaTailor.png" alt="Logo">--><h1>Back to Home</h1></a>
+    </header>
+
+    <article class="margin-sides">
+
+    <h2>Looping in Ruby versus JavaScript Cheatsheet</h2><div class="line-break add-margin-bottom"></div>
+    <p>Looping in Ruby is quite different than JavaScript. There are a lot of built-in methods that can be confusing at first, but, I my opinion, make programming much simpler. JavaScript requires much more explicit iteration, as we'll see in the below comparisons. We will be comparing .each, while, and .map methods.</p>
+    <div class="content-box">
+      <p>A popular Ruby looping method is the each method, which can be replaced with a simple for loop in JavaScript.
+        <div class="code-box-left">
+        <pre class="prettyprint"><code>
+          # Ruby "each" iterator
+
+
+          myarray.each {
+
+          |items|
+
+          puts items
+
+          }
+
+
+
+        </pre></code></div>
+        <div class="code-box-right">
+          <pre class="prettyprint"><code>
+          // JavaScript "for" loop
+          for (i = 0; i < myarray.length; i++)
+          {
+          console.log(myarray[i]);
+          }
+          // OR
+          myarray.forEach(function(n) {
+          console.log(n);
+          })
+          // OR
+          for (element in myarray){
+          console.log(element)
+          }
+        </pre></code></div>
+    </div>
+
+      <div class="content-box">
+      <p>Both Ruby and JavaScript have while methods that operate similarly on a data collection.
+        <div class="code-box-left">
+        <pre class="prettyprint"><code>
+          # Ruby "while" loop
+          counter = myarray.length
+          while counter > 0 do
+            puts "myarray[counter-1]"
+            counter -= 1
+          end
+
+        </pre></code></div>
+        <div class="code-box-right">
+          <pre class="prettyprint"><code>
+          // JavaScript "while" loop
+          counter = myarray.length
+          while (counter > 0)
+          {
+            console.log "myarray[counter-1]";
+            counter--;
+          }
+        </pre></code></div>
+    </div>
+
+      <div class="content-box">
+      <p>Ruby and JavaScript both have map methods that work on arrays.
+        <div class="code-box-left">
+        <pre class="prettyprint"><code>
+         # Ruby "map" method
+
+          myarray.map{ |item|
+          item*2
+          }
+        </pre></code></div>
+        <div class="code-box-right">
+          <pre class="prettyprint"><code>
+          //JavaScript "map" method
+          var doubles = myarray.map(
+          function(num) {
+            return num * 2;
+            });
+        </pre></code></div>
+    </div>
+
+    </article>
+
+    <footer>
+      <p class="margin-sides margin-bottom-clear margin-top-clear left-footer"><span class="comment-format">Any comments or suggestions? </span><a href="mailto:sashatailor@gmail.com">Get in touch!</a></p>
+      <!--<div class="right-footer margin-footer"><a href="https://github.com/SashaTlr" class="margin-sides"><img src="../imgs/GitHub-Mark-32px.png"></a><a href="https://www.linkedin.com/in/sashatailor" class="margin-sides"><img src="../imgs/1444424794_linkedin.png"></a><a href="mailto:sashatailor@gmail.com" class="margin-sides"><img src="../imgs/Mail-Icon.png"></a></div>-->
+      <!-- can add other social media icons later -->
+
+  </footer> <div class="clearfix"></div>
+
+  </body>
+
+</html>
