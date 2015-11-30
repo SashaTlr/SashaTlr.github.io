@@ -227,6 +227,13 @@ a:active {
   color:  #ffffff;
 }
 
+.footer-distributed p.footer-links a:visited{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  #ffffff;
+}
+
 .footer-distributed .footer-right{
   float: right;
   margin-top: 6px;
