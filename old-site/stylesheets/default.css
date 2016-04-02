@@ -1,0 +1,274 @@
+html {
+  color: #333745;
+  /*ea2e49*/
+  background-color: #fffff ;
+  font-family: Ubuntu;
+}
+
+header {
+  text-align: center;
+}
+
+header img{
+  width:40%;
+}
+
+footer{
+  position:relative;
+    width:100%;
+    margin: 0.2em 0;
+    padding: 0.8em 0;
+    }
+
+article p {
+  line-height: 150%;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  position: relative;
+  font-family: Abel;
+  font-size: 1.5em;
+  margin-top: 1em;
+
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left:1em;
+  margin-right:1em;
+}
+
+nav ul li a:link{
+  color: #333745;
+  font-weight: bold;
+}
+
+nav ul li a:active {
+  color: #77C4D3;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #333745;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #77C4D3;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Ubuntu ;
+  margin-bottom: 0.1em;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: Abel ;
+  font-size: 1.8em;
+}
+
+a:link{
+  color: #333745;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #333745;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #77C4D3;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a:active {
+  color: #77C4D3;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.line-break-hd {
+  border-bottom: 3px ridge #77C4D3;
+}
+
+.line-break {
+  border-top: 1px solid #77C4D3;
+  margin-right: 5%;
+  margin-left:5%;
+  margin-top: 5%;
+}
+
+.margin-zero{
+  margin: 0;
+}
+
+.margin-top-clear{
+  margin-top: 0px;
+}
+
+.margin-bottom-clear{
+  margin-top: 0px;
+}
+
+.margin-sides {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.margin-footer {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.margin-top-bottom {
+  /*margin-top: 0.5em;*/
+  margin-bottom: 0.25em;
+}
+
+.list-columns {
+  list-style: none;
+}
+
+
+
+.three-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    padding: 0px;
+}
+
+.two-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    padding: 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+.line-spacing{
+  line-height: 150%;
+}
+.font-xs {
+  font-size: 1em;
+}
+.font-s {
+  font-size: 1.25em;
+}.font-m {
+  font-size: 1.5em;
+}.font-l {
+  font-size: 1.75em;
+}
+.font-bold {
+  font-weight: 1800;
+}
+
+.footer-distributed{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px;
+  font-family: Ubuntu;
+  padding: 45px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+  color:  #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+  font-size:18px;
+  font-weight: bold;
+  color:  #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-distributed p.footer-links a:link{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  #ffffff;
+}
+
+.footer-distributed p.footer-links a:hover{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  #77C4D3;
+}
+
+.footer-distributed p.footer-links a:active{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  #ffffff;
+}
+
+.footer-distributed p.footer-links a:visited{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  #ffffff;
+}
+
+.footer-distributed .footer-right{
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color:  #333745;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-left: 3px;
+}
+
+@media (max-width: 600px) {
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right{
+    text-align: center;
+  }
+
+  .footer-distributed .footer-right{
+    float: none;
+    margin: 0 auto 20px;
+  }
+
+  .footer-distributed .footer-left p.footer-links{
+    line-height: 1.8;
+  }
+}
