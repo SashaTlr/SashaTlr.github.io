@@ -164,19 +164,19 @@ p {
 
 .first{
   background: #011C26;
-  background: url("/Users/sashatailor/Desktop/toronto.jpeg") no-repeat top center fixed;
+  background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
    background-size: cover;
 }
 
 .experience{
   background: #011C26;
-  background: url("/Users/sashatailor/Desktop/subway.jpg") no-repeat top center fixed;
+  background: url("../imgs/subway.jpg") no-repeat top center fixed;
    background-size: cover;
 }
 
 .contact{
   background: #011C26;
-  background: url("/Users/sashatailor/Desktop/phone 2.jpeg") no-repeat top center fixed;
+  background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
    background-size: cover;
 }
 
