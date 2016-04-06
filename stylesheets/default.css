@@ -168,19 +168,20 @@ p {
 }
 
 .first{
-  background: #011C26;
+
   background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
    background-size: cover;
+   height: 100%;
 }
 
 .experience{
-  background: #011C26;
+
   background: url("../imgs/subway.jpg") no-repeat top center fixed;
    background-size: cover;
 }
 
 .contact{
-  background: #011C26;
+
   background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
    background-size: cover;
 }
