@@ -168,19 +168,19 @@ p {
 }
 
 .first{
-  background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+  background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
   background-size: cover;
 }
 
 
 .experience{
-  background: url("../imgs/subway.jpg") no-repeat top center scroll;
+  background: url("../imgs/subway.jpg") no-repeat top center fixed;
    background-size: cover;
 }
 
 .contact{
 
-  background: url("../imgs/phone2.jpeg") no-repeat top center scroll;
+  background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
    background-size: cover;
 }
 
