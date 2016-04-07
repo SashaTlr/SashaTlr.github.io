@@ -168,7 +168,7 @@ p {
 }
 
 .first{
-  background: url("../imgs/toronto.jpeg") no-repeat top center;
+  background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
   background-size: auto 100%;
 }
 
