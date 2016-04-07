@@ -169,15 +169,17 @@ p {
 
 .first{
 
-  background: url("../imgs/toronto.jpeg") no-repeat top center;
+  background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 
 }
+
 
 .experience{
   background: url("../imgs/subway.jpg") no-repeat top center fixed;
