@@ -168,15 +168,9 @@ p {
 }
 
 .first{
-
   background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
+  min-height: 100%;
 
 }
 
