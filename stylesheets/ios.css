@@ -1,0 +1,513 @@
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .first{
+      background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+      background-size: cover;
+    }
+
+
+    .experience{
+      background: url("../imgs/subway.jpg") no-repeat top center fixed;
+       background-size: cover;
+    }
+
+    .contact{
+
+      background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+       background-size: cover;
+    }
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .first{
+    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background-size: cover;
+  }
+
+
+  .experience{
+    background: url("../imgs/subway.jpg") no-repeat top center fixed;
+     background-size: cover;
+  }
+
+  .contact{
+
+    background: url("../imgs/phone2.jpeg") no-repeat top center fixed;
+     background-size: cover;
+  }
+}
