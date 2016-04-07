@@ -168,8 +168,9 @@ p {
 }
 
 .first{
-  background: url("../imgs/toronto.jpeg") no-repeat top center fixed !important;
-  background-size: cover !important;
+  background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
+  background-size: cover;
+  -webkit-overflow-scrolling: touch;
 }
 
 
