@@ -6,7 +6,13 @@
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      color: #011C26;
+      position: absolute;
+      width: 150%;
+    }
     .first{
       background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
       background-size: cover;
@@ -32,7 +38,13 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -57,6 +69,14 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
 
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
@@ -88,7 +108,13 @@
     background-size: cover;
   }
 
-
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
   .experience{
     background: url("../imgs/subway.jpg") repeat-x top center scroll;
      background-size: cover;
@@ -107,7 +133,13 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -132,6 +164,15 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -157,6 +198,15 @@
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -181,6 +231,15 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -205,6 +264,15 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -230,6 +298,15 @@
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -254,6 +331,15 @@
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -278,6 +364,15 @@
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -302,6 +397,15 @@
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -326,6 +430,15 @@
   and (max-device-width: 1024px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -350,6 +463,15 @@
   and (max-device-width: 1024px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 1) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -374,6 +496,15 @@
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -398,6 +529,15 @@
   and (max-device-width: 1024px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -422,6 +562,15 @@
   and (max-device-width: 1024px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 1) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -446,6 +595,15 @@
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -470,6 +628,15 @@
   and (max-device-width: 1024px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
@@ -494,6 +661,15 @@
   and (max-device-width: 1024px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) {
+
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #011C26;
+    position: absolute;
+    width: 150%;
+  }
+
   .first{
     background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
     background-size: cover;
