@@ -55,6 +55,7 @@
     width: auto;
   }
 }
+
 @media screen and (min-width: 580px) {
   .icons{
     display: inline-block;
