@@ -171,7 +171,8 @@ p {
 
   background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
    background-size: cover;
-   height: 100%;
+   -webkit-background-size:cover;
+
 }
 
 .experience{
