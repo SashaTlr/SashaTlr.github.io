@@ -170,14 +170,16 @@ p {
 .first{
 
   background: url("../imgs/toronto.jpeg") no-repeat top center;
-   background-size: cover;
-   background-attachment: fixed;
-   -webkit-background-size:cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 
 }
 
 .experience{
-
   background: url("../imgs/subway.jpg") no-repeat top center fixed;
    background-size: cover;
 }
