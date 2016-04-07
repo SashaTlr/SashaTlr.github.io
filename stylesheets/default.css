@@ -26,6 +26,7 @@
 }
 
 @media only screen and (max-width: 826px) {
+    /* For desktop: */
     .col-12 {width: 100%;padding: 0;}
 }
 
@@ -41,7 +42,6 @@
     float: right;
     margin: 1.6em 0;
    }
-
 }
 
 @media screen and (max-width: 827px) {
@@ -168,7 +168,7 @@ p {
 }
 
 .first{
-  background: url("../imgs/toronto.jpeg") fixed;
+  background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
   background-size: cover;
 }
 
