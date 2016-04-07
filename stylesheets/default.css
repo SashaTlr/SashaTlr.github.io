@@ -168,7 +168,7 @@ p {
 }
 
 .first{
-  background: url("../imgs/toronto.jpeg") repeat-x top center fixed;
+  background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
   background-size: cover;
 }
 
