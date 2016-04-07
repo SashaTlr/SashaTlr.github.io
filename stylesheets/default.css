@@ -169,8 +169,9 @@ p {
 
 .first{
 
-  background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
+  background: url("../imgs/toronto.jpeg") no-repeat top center;
    background-size: cover;
+   background-attachment: fixed;
    -webkit-background-size:cover;
 
 }
