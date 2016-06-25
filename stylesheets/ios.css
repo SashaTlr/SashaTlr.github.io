@@ -14,7 +14,10 @@
       width: 125%;
     }
     .first{
-      background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+      background: url("../imgs/toronto.jpeg") repeat-x top center fixed;
+    }
+
+    .first div {
       background-size: cover;
     }
 
