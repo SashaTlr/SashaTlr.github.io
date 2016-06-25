@@ -14,11 +14,11 @@
       width: 125%;
     }
     .first{
-      background: url("../imgs/toronto.jpeg") repeat-x top center fixed;
+      background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
     }
 
-    .first div {
-      background-size: cover;
+    .cover {
+      background-attachment: cover;
     }
 
 
