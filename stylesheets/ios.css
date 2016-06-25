@@ -211,7 +211,11 @@
   }
 
   .first{
-    background: url("../imgs/toronto.jpeg") repeat-x top center scroll;
+    background: url("../imgs/toronto.jpeg") no-repeat top center fixed;
+
+  }
+
+  .cover {
     background-size: cover;
   }
 
